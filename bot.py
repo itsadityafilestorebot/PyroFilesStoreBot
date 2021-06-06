@@ -49,8 +49,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series"),
-                        InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021")
+                        InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -337,8 +337,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series"),
-                        InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021")
+                        InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -389,8 +389,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series"),
-                        InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021")
+                        InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
