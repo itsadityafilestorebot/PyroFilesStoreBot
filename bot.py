@@ -49,8 +49,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series")
+                        InlineKeyboardButton("Support Channel", url="https://t.me/Lucifer_Season5_Part_B_4U"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/MovieFlixGroup")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -99,7 +99,7 @@ async def main(bot: Client, message: Message):
             else:
                 pass
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Master](https://t.me/Aditya1190)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Master](https://t.me/Vikramaditya1190)",
                                      disable_web_page_preview=True)
             return
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
@@ -117,8 +117,8 @@ async def main(bot: Client, message: Message):
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("Open Link", url=share_link)],
-                     [InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
-                      InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series")]]
+                     [InlineKeyboardButton("Support Channel", url="https://t.me/Lucifer_Season5_Part_B_4U"),
+                      InlineKeyboardButton("Support Group", url="https://t.me/MovieFlixGroup")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -337,8 +337,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series")
+                        InlineKeyboardButton("Support Channel", url="https://t.me/Lucifer_Season5_Part_B_4U"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/MovieFlixGroup")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Master](https://t.me/Aditya1190).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Master](https://t.me/Vikramaditya1190).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -377,7 +377,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Master](https://t.me/Aditya1190).",
+                    text="Something went Wrong. Contact my [Master](https://t.me/Vikramaditya1190).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -389,8 +389,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Channel", url="https://t.me/LatestNetflixMovie2021"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/Request_movies_and_series")
+                        InlineKeyboardButton("Support Channel", url="https://t.me/Lucifer_Season5_Part_B_4U"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/MovieFlixGroup")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
